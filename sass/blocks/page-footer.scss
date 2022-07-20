@@ -1,0 +1,115 @@
+.page-footer {
+  background-color: $color-background-light;
+  margin-top: 49px;
+  margin-left: 84px;
+  padding-top: 28px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+
+  }
+
+  @media (min-width: $desktop-width) {}
+}
+
+.page-footer__wrapper {
+  padding-top: 36px;
+  width: 151px;
+  height: 181px;
+  display: block;
+
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-around;
+    width: 768px;
+    height: 120px;
+
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    height: 120px;
+
+  }
+}
+
+.page-footer__hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.page-footer__social-list {
+  min-width: 150px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 45px;
+}
+
+.page-footer__item {
+  position: relative;
+  width: 46px;
+  height: 48px;
+  background-color: $color-background;
+}
+
+.page-footer__social-btn--twitter {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 17px;
+  height: 17px;
+  top: 15px;
+  left: 15px;
+  background-image: url("../img/icons/icon-twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-footer__social-btn--fb {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 17px;
+  height: 17px;
+  top: 15px;
+  left: 15px;
+  background-image: url("../img/icons/icon-facebook.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-footer__social-btn--youtube {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 17px;
+  height: 17px;
+  top: 15px;
+  left: 15px;
+  background-image: url("../img/icons/icon-youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-footer__text {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.page-footer__copyright {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
